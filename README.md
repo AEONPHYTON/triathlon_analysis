@@ -14,11 +14,11 @@ Some race files have data corrupted, during the extraction the number of the fil
 Usually, the error is in the time of the split, correct all the errors in the format: 00:00:00 or calculate to find the correct time values
 
 Error:
-*Error found: 1:00:00 set the zero in front of the hour value
-*Error found: 01::00:00 delete the double colon and set only one
-*Error found: 01;00;00 substitutes the semicolon with the colon
-*Error found: 01:00:00,5 delete the half-second
-*Error found: :: there's not a value between the colon
+* Error found: 1:00:00 set the zero in front of the hour value 
+* Error found: 01::00:00 delete the double colon and set only one 
+* Error found: 01;00;00 substitutes the semicolon with the colon 
+* Error found: 01:00:00,5 delete the half-second 
+* Error found: :: there's not a value between the colon 
 
 It's boring work, but the data is not very clean (the problem, probably, was during time acquisition in the race).
 To change the data in the JSON file don't use a spreadsheet like Excel because the first column si a big number and Excel converts it to an exponential number, I suggest using Notepad++ with a JSON plugin
