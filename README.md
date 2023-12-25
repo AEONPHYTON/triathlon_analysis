@@ -1,4 +1,4 @@
-# triathlon_analysis
+# Triathlon Analysis Project
 ## Analysis of triathlon results with machine learning to find new information
 
 The files in this repository are used to download, extract, and analyze the results of triathlon races, in the notebook the analysis uses machine learning. 
