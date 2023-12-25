@@ -13,6 +13,7 @@ Please note:
 Some race files have data corrupted, during the extraction the number of the file indicates the file is corrupted. Open the file and search the problem manually. In the error message, there's an indication about the problem.
 Usually, the error is in the time of the split, correct all the errors in the format: 00:00:00 or calculate to find the correct time values
 
+Error:
 *Error found: 1:00:00 set the zero in front of the hour value
 *Error found: 01::00:00 delete the double colon and set only one
 *Error found: 01;00;00 substitutes the semicolon with the colon
