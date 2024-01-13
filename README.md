@@ -8,6 +8,8 @@ The passage to find all the information about race results is:
 * Use the 02_event_extract.py to extract the race result (insert the API key and the folder to upload and save the file). All the 200.000 file is about 500 MB with a 12 hours of elaboration
 * Use the 03_race_extraction.py to extract all data about triathlon races (excluding duathlon, winter triathlon, aquathlon, and para-triathlon race, etc.). Some files are corrupted or without data, you can choose to delete them or modify them to have the information.
 * Use the header.csv file to set the header of the race result
+* Use the 04_data_cleaning_riathlon_race.ipynb for the first step of data cleaning
+* Use the 05_cleaning_....ipynb (... sprint and standard distance for male and female) for the second step of cleaning and make the train and test file
 
 Please note:
 Some race files have data corrupted, during the extraction the number of the file indicates the file is corrupted. Open the file and search the problem manually. In the error message, there's an indication about the problem.
@@ -20,4 +22,4 @@ Usually, the error is in the time of the split, correct all the errors in the fo
 * Error found: :: there's not a value between the colon 
 
 It's boring work, but the data is not very clean (the problem, probably, was during time acquisition in the race).
-To change the data in the JSON file don't use a spreadsheet like Excel because the first column si a big number and Excel converts it to an exponential number, I suggest using Notepad++ with a JSON plugin
+To change the data in the JSON file don't use a spreadsheet like Excel because the first column is a big number and Excel converts it to an exponential number, I suggest using Notepad++ with a JSON plugin
