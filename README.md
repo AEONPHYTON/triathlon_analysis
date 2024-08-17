@@ -9,7 +9,8 @@ The passage to find all the information about race results is:
 * Use the `03_race_extraction.py` to extract all data about triathlon races (excluding duathlon, winter triathlon, aquathlon, and para-triathlon race, etc.). Some files are corrupted or without data, you can choose to delete them or modify them to have the information.
 * Use the `header.csv` file to set the header of the race result
 * `header_description.csv` file that describes the columns
-* Use the `04_data_cleaning_riathlon_race.ipynb` for the first step of data cleaning
+* Use the `04_data_cleaning_triathlon_race.ipynb` for the first step of data cleaning
+* Use the `04_1_cleaning_standard_race.ipynb` for the second step of data cleaning
 * Use the `05_triathlon_analysis_statistic.ipynb` a notebook to perform traditional statistics
 * Use the `06_triathlon_machine_learning_toop_3.ipynb` a notebook to perform machine learning analysis
 * `db_standard_female.csv` standard distante database for female used for analysis
