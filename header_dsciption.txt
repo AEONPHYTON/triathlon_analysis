@@ -1,0 +1,78 @@
+generated_id: unique ID using athlete_id + prog_id + event_id
+athlete_id: identification the unique ID of the athlete
+prog_id: identification number of the programme of the race
+event_id: identification number of the event of the race
+athlete_first: fisrt name of the athlete
+athlete_last: second name of the athlete
+athlete_gender: gender of the athlete (Male or Female)
+dob: date of birth of the athlete
+athlete_country_id: identification number (ID) of the athlete's country
+athlete_yob: year of birth of the athlete
+athlete_noc: athlete nation (Name Of Country)
+athlete_age: age in year of the athlete at the date of download JSON file
+athlete_categories: category of the athlete in the corrisponding race
+prog_name: categry of the athlete in the race (elite, junior, parathlete)
+prog_date: data of the event
+prog_gender: gender of the program event
+prog_distance_category: desription of the distance of the event
+prog_distances: desription of the distance of the event
+prog_notes: notes about race
+cat_name_categories: identification of the category of the race (ie. world cup, WTs, etc)
+cat_id_categories: ID of the cat_name_categories
+cat_parent_id_categories: subcategories of the event
+cat_name_specification_first: type of race (triathlon, duathloetc, in the file extraction there's only triathlon)
+cat_id_specification_first: ID specific for triathlon
+cat_parent_id_specification_first: ID parent specific for triathlon
+cat_name_specification_second: name of the race using distance indication (sprint, standard, mixed, etc)
+cat_id_specification_second: ID specific for triathlon second specification
+cat_parent_id_specification_second: ID parent specific for triathlon second specification
+event_title: race name, date and location
+event_venue: city of the race
+event_country: country of the race
+event_latitude: latitude of the venue
+event_longitude: longitude of the venue
+event_date: data fo the event (YYYY-MM-DD)
+event_country_noc: acronim of the nation
+event_region_id: ID of the continent of the nation
+event_country_id: ID of the nation
+event_region_name: continent of nation of the race
+temperature_water: water temperature
+temperature_air: air temperature
+humidity: humidity of the environment
+wbgt: Wet Bulb Globe Temperature (WBGT) is a measure of the heat stress in direct sunlight
+wind: wind velocity 
+weather: the metereologica weather
+wetsuit: if the wetsuit is used or available or forbidden
+position: final position of the race
+start_num: start number of the race
+split_nuoto: time of the swim split
+split_T1: time of the transition 1 split
+split_ciclismo: time of the bike split
+split_T2: time of the transtion 2 split
+split_corsa: time of the run split
+total_time: total time of the race
+tempo_nuoto_sec: conversion in second of the swim split
+tempo_T1_sec: conversion in second of the Transition 1 split
+tempo_ciclismo_sec: conversion in second of the bike split
+tempo_T2_sec: conversion in second of the transition 2 split
+tempo_corsa_sec: conversion in second of the run split
+tempo_totale_sec: conversion in second of the total time
+swim_T1: sum of the time of the swim and transition 1 split
+swim_T1_bike: sum of the time of the swim and transition 1 and bike split
+swim_T1_bike_T2: sum of the time of the swim and transition 1 bike and transition 2 split
+bike_T2: sum of the time of the  bike and transition 2 split
+swim_distance: distance in meter of the swim split (according with the title of the race)
+bike_distance: distance in meter of the bike split (according with the title of the race)
+run_distance: distance in meter of the run split (according with the title of the race)
+percentage_swim: percentage on the total time of the swim split
+percentage_t_1: percentage on the total time of the transition 1 split
+percentage_bike: percentage on the total time of the bike split
+percentage_t_2: percentage on the total time of the transition 2 split
+percentage_run: percentage on the total time of the run split
+swim_T1_percentage: percentage on the total time of the swim+transition 1 split
+swim_T1_bike_percentage: percentage on the total time of the swim+transition1+bike split
+swim_T1_bike_T2_percentage: percentage on the total time of the swim+transition1+tbike+transition 2 split
+bike_T2_percentage: percentage on the total time of the tbike+transition 2 split
+avg_swim_vel_m/s: average velociti in meter/sec of the swim split
+avg_bike_vel_m/s: average velociti in meter/sec of the bike split
+avg_run_vel_m/s average velociti in meter/sec of the run split
