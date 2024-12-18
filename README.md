@@ -8,7 +8,7 @@ The passage to find all the information about race results is:
 * Use the `02_event_extract.py` to extract the race result (insert the API key and the folder to upload and save the file). All the 200.000 file is about 500 MB with a 12 hours of elaboration
 * Use the `03_race_extraction.py` to extract all data about triathlon races (excluding duathlon, winter triathlon, aquathlon, and para-triathlon race, etc.). Some files are corrupted or without data, you can choose to delete them or modify them to have the information****.
 * Use the `header.csv` file to set the header of the race result
-* `header_description.csv` file that describes the columns
+* `header_description.txt` file that describes the columns
 * Use the `04_data_cleaning_triathlon_race.ipynb` for the first step of data cleaning
 * Use the `04_1_cleaning_standard_race.ipynb` for the second step of data cleaning
 * Use the `05_triathlon_analysis_statistic.ipynb` a notebook to perform traditional statistics
